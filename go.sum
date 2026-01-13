@@ -193,8 +193,6 @@ github.com/amazon-contributing/opentelemetry-collector-contrib/exporter/awsxraye
 github.com/amazon-contributing/opentelemetry-collector-contrib/exporter/awsxrayexporter v0.0.0-20251211175346-5faee86d9fde/go.mod h1:BAShbIsZmq4pndaVp6XfpS3ijVYHXkQhr4I89kQonTQ=
 github.com/amazon-contributing/opentelemetry-collector-contrib/extension/awsmiddleware v0.0.0-20251211175346-5faee86d9fde h1:fsUkuP9qi6nzsGhq61QJV75CgV7+OnH5DaHK7+ZplUw=
 github.com/amazon-contributing/opentelemetry-collector-contrib/extension/awsmiddleware v0.0.0-20251211175346-5faee86d9fde/go.mod h1:SpBtq2f0PclYNg6612tjc5MIZFUykEYyND0Tq7l0mzM=
-github.com/amazon-contributing/opentelemetry-collector-contrib/extension/awsproxy v0.0.0-20251211175346-5faee86d9fde h1:oySvdaLIYYpN/aJ5vXHetRaqggZndLgD2gUrQ9P9LG0=
-github.com/amazon-contributing/opentelemetry-collector-contrib/extension/awsproxy v0.0.0-20251211175346-5faee86d9fde/go.mod h1:orUknJg46Fszwz8LI733CI3uyku80NBdWqzzSgyzWKc=
 github.com/amazon-contributing/opentelemetry-collector-contrib/internal/aws/awsutil v0.0.0-20251211175346-5faee86d9fde h1:iV8PHkEDby6DJkxMvbomJvuJeeq83wE/2/9O8C2iSm4=
 github.com/amazon-contributing/opentelemetry-collector-contrib/internal/aws/awsutil v0.0.0-20251211175346-5faee86d9fde/go.mod h1:uQv03B/EZ5CVsYWrKqaJbiIMOY2DK6Ox2xjCved+YSM=
 github.com/amazon-contributing/opentelemetry-collector-contrib/internal/aws/containerinsight v0.0.0-20251211175346-5faee86d9fde h1:KmaNFqKwC0Ssg9PZI7kCK1wFzSWYFo3F28/1FvQf/Pc=

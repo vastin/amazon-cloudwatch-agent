@@ -29,7 +29,7 @@ func TestTranslate(t *testing.T) {
 			{
 				Paths:       []string{"list-instrumentation-configurations", "report-instrumentation-configuration-status"},
 				ServiceName: "application-signals",
-				AWSEndpoint: "https://application-signals.us-east-1.api.aws",
+				AWSEndpoint: "https://application-signals-gamma.us-east-1.api.aws",
 			},
 		}
 		assert.Equal(t, wantCfg, gotCfg)

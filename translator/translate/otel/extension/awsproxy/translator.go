@@ -75,7 +75,7 @@ func (t *translator) Translate(conf *confmap.Conf) (component.Config, error) {
 		{
 			Paths:       []string{"list-instrumentation-configurations", "report-instrumentation-configuration-status"},
 			ServiceName: "application-signals",
-			AWSEndpoint: fmt.Sprintf("https://application-signals.%s.api.aws", cfg.ProxyConfig.Region),
+			AWSEndpoint: fmt.Sprintf("https://application-signals-gamma.%s.api.aws", cfg.ProxyConfig.Region),
 		},
 	}
 	return cfg, nil
