@@ -10,9 +10,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/confmap"
+
+	"github.com/aws/amazon-cloudwatch-agent/translator/translate/agent"
 )
 
 func TestTranslate(t *testing.T) {
+	agent.Global_Config.Region = "us-east-1"
 	tt := NewTranslator()
 	conf := confmap.NewFromStringMap(map[string]any{"traces": map[string]any{}})
 	got, err := tt.Translate(conf)
